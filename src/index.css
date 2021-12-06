@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color:#f5f5f5;
+}
+
+
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 50px;
+  background-color: #ececec;
+  height: 45px !important;
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.MuiTypography-colorPrimary{
+  color:white !important
+}
+.circle-heading {
+  font-size: 12px;
+  color: #b7b7b7;
+  background-color: #b7b7b7;
+  font-weight: lighter;
+}
+#progressInput {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.circle-background,
+.circle-progress,
+.circle-progress2 {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #dedede;
+}
+
+.circle-progress {
+  stroke: var(--primary-color);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.circle-progress2 {
+  stroke: #47dbee;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.circle-text {
+  font-size: 1.3em;
+  font-weight: 700;
+  fill: var(--primary-color);
+}
+.MuiOutlinedInput-input {
+  padding: 10.5px 3px !important;
+  background-color: white;
+}
+.MuiOutlinedInput-adornedStart {
+  background-color: white;
+}
+.MuiPaper-elevation4 {
+box-shadow: none !important;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+  padding-top: 0 !important;
+}
+.MuiTableCell-root {
+  padding: 10px 8px !important;
+}
+@media (max-width:768px){
+  .MuiOutlinedInput-adornedStart {
+    padding-left: 4px !important;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 10px !important;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 20px !important;
+}
+.MuiGrid-spacing-xs-10 {
+  margin:0 !important;
+  margin-left: -40px !important;
+}
+
+}
+@media (min-width: 600px){
+
+.MuiToolbar-gutters {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}

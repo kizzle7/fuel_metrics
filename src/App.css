@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: inherit; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100px;
+    background-color: white !important;
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* Hide horizontal scrollbar */
+}
+
+.ant-modal {
+    border-radius: 25px !important;
+}
+
+.ant-modal-content {
+    border-radius: 25px !important;
+}
+
+.ant-modal-header {
+    border-radius: 25px !important;
+}
+
+.container-fluid-bg {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.ant-switch-checked {
+    background: #01a85a !important;
+}
+
+
+/* .ant-switch-checked {
+
+} */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.map-bg {
+    height: 700px;
+    background: url(./img/newmap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.map-mobile {
+    height: 600px;
+    background: url(./img/mobile-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.ant-modal-close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    z-index: 10;
+    padding: 0;
+    margin: 1.5rem;
+    color: white !important;
+    font-weight: 700;
+    border: 1px solid white !important;
+    border-radius: 25% !important;
+    background: white !important;
+    line-height: 1;
+    text-decoration: none;
+    outline: none !important;
+    outline-color: #000 I !important;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.ant-modal-close-x {
+    display: block;
+    width: 40px !important;
+    height: 50px !important;
+    font-size: 16px !important;
+    font-style: normal;
+    margin-top: -1.2rem;
+    line-height: 56px;
+    color: red !important;
+    text-align: center;
+    text-transform: none;
+    text-rendering: auto;
+}
+
+.ant-modal-confirm-info .ant-modal-confirm-body>.anticon {
+    color: #01a85a !important;
+}
+
+.pagination-pan {
+    width: 100%;
+    white-space: nowrap;
+}
+
+
+/* .panel-header {
+    background: red !important;
+} */
+
+.panel {
+    background: green !important;
+}
